@@ -26,6 +26,7 @@
     <link href="css/creative.min.css" rel="stylesheet">
      <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script src="database.js"></script>
+    <script src="location.js"></script>
     <style>
         *{
             font-family: helvetica;
@@ -48,13 +49,10 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#buy">Buy</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#sell">Sell</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Locations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -69,13 +67,13 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Find your Vehicle spare part here </strong>
+              <strong>Sell your Vehicle spare part here </strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Welcome to the first ever website where you can search for your vehicles spare part quickly. Don't waste your time too much going to many shops just for a sparepart !</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#buy">Find Yours today!</a>
+            <p class="text-white mb-5" style="font-size: 30px;"><font color="white">Welcome to the first ever website where you can sell your vehicles spare part quickly. Don't waste your time too much going to many shops just for a sparepart!</font></p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#sell">Sell Yours today!</a>
           </div>
         </div>
       </div>
@@ -94,127 +92,7 @@
       </div>
     </section>
 
-    <section class="bg-dark" id="buy">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">For any car, we have !</h2>
-            <hr class="light my-4">
-             <form>
-        <div class="card text-white bg-dark mb-9 mx-auto container-fluid card border-danger mb-3 " style="max-width: 18rem; border-radius: 10%">
-        <div class="card-header">Spare Me.my</div>
-        <div class="card-body">
-        <h5 class="card-title">Find your sparepart here..</h5>
-        <label>Condition</label>
-          <div style="font-family: sans-serif; font-weight: lighter;">
-              <p class="card-text"><select class="custom-select custom-select-lg mb-3">
-              <option selected>Used</option>
-              <option value="1">New</option>
-              <option value="2">Recon</option>
-          </div>    
-        </select>
-        <label>Brand</label>
-        <select class="custom-select custom-select-lg">
-        <option selected>Select here</option>
-                            <option value="popular">--Popular Brands--</option>
-                            <option value="toyota" >Toyota (30403)</option>
-                            <option value="proton" >Proton (28338)</option>
-                            <option value="perodua" >Perodua (14132)</option>
-                            <option value="honda" >Honda (11211)</option>
-                            <option value="nissan" >Nissan (10379)</option>
-                            <option value="mercedes-benz" >Mercedes-Benz (10241)</option>
-                            <option value="bmw" >BMW (5265)</option>
-                            <option value="hyundai" >Hyundai (3487)</option>
-                            <option value="kia" >Kia (3235)</option>
-                            <option value="volkswagen" >Volkswagen (3061)</option>
-                            <option>--</option>
-                            <option value="alfa-romeo" >Alfa Romeo (32)</option>
-                            <option value="american-motor" >American Motor (1)</option>
-                            <option value="aston-martin" >Aston Martin (23)</option>
-                            <option value="audi" >Audi (2128)</option>
-                            <option value="austin" >Austin (3)</option>
-                            <option value="bentley" >Bentley (367)</option>
-                            <option value="bison" >Bison (29)</option>
-                            <option value="boon-koon" >Boon Koon (5)</option>
-                            <option value="buick" >Buick (2)</option>
-                            <option value="cam" >CAM (12)</option>
-                            <option value="cadillac" >Cadillac (3)</option>
-                            <option value="chana" >Chana (39)</option>
-                            <option value="changan" >Changan (1)</option>
-                            <option value="chery" >Chery (138)</option>
-                            <option value="chevrolet" >Chevrolet (309)</option>
-                            <option value="chrysler" >Chrysler (6)</option>
-                            <option value="citroen" >Citroen (68)</option>
-                            <option value="dfsk" >DFSK (12)</option>
-                            <option value="daihatsu" >Daihatsu (302)</option>
-                            <option value="datsun" >Datsun (2)</option>
-                            <option value="dodge" >Dodge (8)</option>
-                            <option value="dong-feng" >Dong feng (5)</option>
-                            <option value="farid" >Farid (2)</option>
-                            <option value="ferrari" >Ferrari (144)</option>
-                            <option value="fiat" >Fiat (30)</option>
-                            <option value="ford" >Ford (2666)</option>
-                            <option value="foton" >Foton (15)</option>
-                            <option value="great-wall" >Great Wall (18)</option>
-                            <option value="haval" >Haval (118)</option>
-                            <option value="hicom" >Hicom (151)</option>
-                            <option value="hino" >Hino (191)</option>
-                            <option value="hummer" >Hummer (16)</option>
-                            <option value="impul" >Impul (5)</option>
-                            <option value="infiniti" >Infiniti (23)</option>
-                            <option value="inokom" >Inokom (125)</option>
-                            <option value="isuzu" >Isuzu (520)</option>
-                            <option value="jbc" >JBC (1)</option>
-                            <option value="jmc" >JMC (3)</option>
-                            <option value="jaguar" >Jaguar (255)</option>
-                            <option value="jeep" >Jeep (41)</option>
-                            <option value="joylong" >Joylong (1)</option>
-                            <option value="lamborghini" >Lamborghini (118)</option>
-                            <option value="land-rover" >Land Rover (1387)</option>
-                            <option value="lexus" >Lexus (1071)</option>
-                            <option value="lotus" >Lotus (26)</option>
-                            <option value="man" >MAN (1)</option>
-                            <option value="mg" >MG (6)</option>
-                            <option value="mini" >MINI (1033)</option>
-                            <option value="mahindra" >Mahindra (4)</option>
-                            <option value="maserati" >Maserati (44)</option>
-                            <option value="maxus" >Maxus (16)</option>
-                            <option value="mazda" >Mazda (2541)</option>
-                            <option value="mclaren" >McLaren (36)</option>
-                            <option value="mercedes-maybach" >Mercedes-Maybach (9)</option>
-                            <option value="mitsubishi" >Mitsubishi (2755)</option>
-                            <option value="mitsuoka" >Mitsuoka (3)</option>
-                            <option value="morgan" >Morgan (1)</option>
-                            <option value="naza" >Naza (768)</option>
-                            <option value="opel" >Opel (14)</option>
-                            <option value="peugeot" >Peugeot (848)</option>
-                            <option value="porsche" >Porsche (1824)</option>
-                            <option value="renault" >Renault (133)</option>
-                            <option value="rolls-royce" >Rolls-Royce (60)</option>
-                            <option value="saab" >Saab (3)</option>
-                            <option value="shenyang-brilliance" >Shenyang Brilliance (4)</option>
-                            <option value="skoda" >Skoda (6)</option>
-                            <option value="smart" >Smart (38)</option>
-                            <option value="ssangyong" >Ssangyong (104)</option>
-                            <option value="subaru" >Subaru (362)</option>
-                            <option value="suzuki" >Suzuki (964)</option>
-                            <option value="tesla" >TESLA (6)</option>
-                            <option value="tata" >Tata (3)</option>
-                            <option value="volvo" >Volvo (440)</option>
-                            <option value="wald" >Wald (3)</option>
-                            <option value="weststar" >Weststar (2)</option>
-                            <option value="yangtse" >YANGTSE (2)</option>
-                            <option value="zna" >ZNA (2)</option>
-                            <option value="zx-auto">ZX Auto (3)</option>
-        </select>
-        <div class="btn-group">
-          <button class="btn btn-primary text-center" type="submit" value="Submit">Submit</button>
-        </div>
-      </p>
-        </div>
-     </form>
-            <p class="mb-4" style="font-family: sans-serif; font-weight: lighter;">If it is not here, then it doesn't exist!</p>
-    </section>
+   
 
     <section class="bg-success" id="sell">
       <div class="container">
@@ -389,47 +267,131 @@
          <p class="mb-4" style="font-family: sans-serif; font-weight: lighter;">If it is not here, then it doesn't exist!</p>
     </section>
 
-    <section id="services">
+    <section id="services" style="background-color: black;">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
-            <hr class="my-4">
-          </div>
-        </div>
+      <div class="row">
+        <h1 class="text-center col-12 text-uppercase text-primary"><i class="fa fa-location-arrow"></i>
+          Locations</h1>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-            </div>
+          <div class="row text-white">
+                <p class="text-center col-4">AAS Autoparts</p>
+                <p class="text-center col-4">Chan Huat Auto Supplies</p>
+                <p class="text-center col-4">Famous Auto Supplies</p>
+                  <div class="col-4">
+                      <img style="border-radius: 10%; height: 250px;" src="https://www.jayagrocer.com/assets/images/outlets/outlet-cyberjaya.jpg" class=" img-fluid"></div>
+
+                  <div class="col-4">
+                      <img style="width: 320px; height: 250px; border-radius: 10%" src="https://scontent.fkul14-1.fna.fbcdn.net/v/t1.0-9/29695434_989929167826757_4107062287821438976_o.jpg?_nc_cat=0&oh=11a5cbe576938167077b16549666d59d&oe=5C2C1B48" class="img-fluid"></div>
+
+                  <div class="col-4">
+                        <img style="border-radius: 10% " src="https://scontent.fkul14-1.fna.fbcdn.net/v/t31.0-8/22528850_1668721209825557_3819806395273491088_o.jpg?_nc_cat=0&oh=bb10aeb282161523f4316ff9b8e6d21c&oe=5C36A0BF" class="img-fluid"></div>
+                  <div class="col-4 text-center">
+                        <h2>Contact:</h2><h6>03-4256 0885</h6></div> 
+
+                  <div class="col-4 text-center">
+                        <h2>Contact:</h2><h6>013-517 6688 </h6> </div> 
+
+                  <div class="col-4 text-center">
+                        <h2> Contact:</h2><h6>019-328 8324</h6></div>
+
+                  <div class="btn-group col-4">
+                        <button type="button" class="btn btn-danger btn-sm dropdown-toggle text-center col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Opening Hours
+                      </button>
+
+                      <div class="dropdown-menu col bg bg-dark" style="padding-right: 50px; border-radius: 10%;">
+                        <h6 class="text-white text-capitalize"><br>
+                          <ul>
+                            <li>Saturday 8.30AM-6.30PM</li><br>
+                            <li>Sunday    Closed</li><br>
+                            <li>Monday    8:30AM–6:30PM</li><br>
+                            <li>Tuesday   8:30AM–6:30PM</li><br>
+                            <li>Wednesday 8:30AM–6:30PM</li><br>
+                            <li>Thursday  8:30AM–6:30PM</li><br>
+                            <li>Friday    8:30AM–6:30PM</li><br>
+                          </ul></h6>
+                      </div>
+                  </div>
+
+
+            
+                        <div class="btn-group col-4">
+                          <button type="button" class="btn btn-danger btn-sm dropdown-toggle text-center col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="height:30px; top: 5px">
+                             Opening Hours
+                          </button>
+
+                          <div class="dropdown-menu col bg bg-dark " style=" padding-right: 50px; border-radius: 10%;">
+                            <h6 class="text-white "><br>
+                            <ul><li>Saturday  8:30AM–6:30PM</li><br>
+                              <li>Sunday    Closed</li><br>
+                              <li>Monday    8:30AM–6:30PM</li><br>
+                              <li>Tuesday   8:30AM–6:30PM</li><br>
+                              <li>Wednesday 8:30AM–6:30PM</li><br>
+                              <li>Thursday  8:30AM–6:30PM</li><br>
+                              <li>Friday    8:30AM–6:30PM</li><br>
+                            </ul>
+                        </h6>
+                          </div>
+                        </div>
+
+                        <div class="btn-group col-4">
+                          <button type="button" class="btn btn-danger btn-sm dropdown-toggle text-center col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Opening Hours
+                          </button>
+
+                          <div class="dropdown-menu col bg bg-dark" style="padding-right: 50px; border-radius: 10%;">
+                            <h6 class="text-white text-capitalize"><br>
+                            <ul>
+                              <li>Saturday 8AM-6PM</li><br>
+                              <li>Sunday  8AM-6PM</li><br>
+                              <li>Monday  8AM–6PM</li><br>
+                              <li>Tuesday 8AM–6PM</li><br>
+                              <li>Wednesday 8AM–6PM</li><br>
+                              <li>Thursday  8AM–6PM</li><br>
+                              <li>Friday  8AM–6PM</li><br>
+                            </ul>  
+                            </h6>
+                          </div>
+                        </div>
+
+                        <div class="btn group col-4">
+                            <button type="button" class="btn btn-info btn-md dropdown-toggle text-center col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Website
+                            </button>
+                      
+                            <div class="dropdown-menu col bg bg-dark " style="border-radius: 10%;">
+                              <h6 class="text-danger text-center text-capitalize"><br>
+                               <a href="https://ms-my.facebook.com/aasautopartssdnbhd"> Bring me there</a>
+                              </h6><br>
+                            </div>                                                    
+                        </div>
+
+                        <div class="btn group col-4" >
+                            <button type="button" class="btn btn-info btn-md dropdown-toggle text-center col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style= "left:2%;">Website</button>
+
+                            <div class="dropdown-menu col bg bg-dark " style="border-radius: 10%;">
+                              <h6 class="text-danger text-center text-capitalize"><br>
+                               <a href="https://www.facebook.com/chanhuatautosupplies/"> Bring me there</a>
+                              </h6>
+                            </div>
+                        </div>
+
+                        <div class="btn group col-4">
+                            <button type="button" class="btn btn-info btn-md dropdown-toggle text-center col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="position:auto; right: 0.5% ">Website
+                            </button>
+
+                         <div class="dropdown-menu col bg bg-dark " style="border-radius: 10%;">
+                              <h6 class="text-danger text-center text-capitalize"><br>
+                               <a href="https://www.famousautopart.com/"> Bring me there</a>
+                              </h6>
+                            </div>    
+                        </div> 
+                        <div class="col-4 text-success  text-center sr-contact"  id="distanceAAS"></div> 
+                          <div class="col-4 text-success  text-center sr-contact"  id="distanceCHA"></div> 
+                          <div class="col-4 text-success  text-center sr-contact"  id="distanceFAT"></div><br>   
+                  <button type="submit" class="btn btn-light col text-center" onclick="getlocation()">Find Your Distance</button>                     
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+  </section>
 
     <section id="contact">
       <div class="container">
@@ -437,7 +399,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            <p class="mb-5">Provide us your feedback on our services and on this website so that we can make it better for you and everyone else!</p>
           </div>
         </div>
         <div class="row">
